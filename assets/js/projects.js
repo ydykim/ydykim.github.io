@@ -13,7 +13,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/mentors.jpg',
             link: 'https://github.com/abhn/Mporter',
-            title: 'Mporter',
+            title: '컴퓨터네트웍개론',
             demo: 'https://mporter.co',
             technologies: ['Flask', 'Celery', 'Python'],
             description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
@@ -22,7 +22,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/mobile-landscape.jpg',
             link: 'https://github.com/abhn/Wall-E',
-            title: 'Wall-E',
+            title: '프로그래밍언어',
             demo: 'http://wall-e-jekyll.github.io/',
             technologies: ['Semantic UI', 'Jekyll'],
             description: "A modern Jekyll theme with grid frontpage, beautiful typography, mobile responsive, made with Semantic UI.",
@@ -31,7 +31,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/collage.jpg',
             link: 'https://github.com/abhn/Marvel',
-            title: 'Marvel',
+            title: '운영체제',
             demo: false,
             technologies: ['Android', 'OpenCV'],
             description: "Attendance marking tool that uses face recognition for marking attendance and firebase for tracking and analytics.",
@@ -40,7 +40,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/mpw.jpg',
             link: 'https://github.com/abhn/mpw',
-            title: 'Master Password',
+            title: '시스템프로그램',
             demo: 'https://www.nagekar.com/mpw',
             technologies: ['Semantic UI', 'CSS3'],
             description: "Master Password is an ingenious password solution that makes your passwords truly impossible to lose.",
@@ -49,7 +49,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/social-share-count.jpeg',
             link: 'https://github.com/abhn/Social-Share-Counts',
-            title: 'Social Share Count',
+            title: '일반논리학',
             demo: false,
             technologies: ['Python'],
             description: "Ever wondered how many times a URL has been shared on popular social networks?",
@@ -58,7 +58,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/data-destroyer.png',
             link: 'https://github.com/abhn/data-destroyer-gui',
-            title: 'Data Destroyer',
+            title: '비판적사고',
             demo: false,
             technologies: ['C++', 'Qt'],
             description: "Native GUI wrapper for GNU coreutils tool 'dd'",
@@ -67,7 +67,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/raspberry-pi-monitor.png',
             link: 'https://github.com/abhn/RPi-Status-Monitor',
-            title: 'Raspberry Pi Monitor',
+            title: '선형대수학',
             demo: false,
             technologies: ['python', 'flask'],
             description: "Web based status monitor/smart mirror, displays system stats, weather and more.",
@@ -76,7 +76,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/s3scan.png',
             link: 'https://github.com/abhn/S3Scan',
-            title: 'S3Scan',
+            title: '데이터분석기초',
             demo: false,
             technologies: ['python'],
             description: "Automate crawling of a website and find publicly open S3 buckets for takeover.",
@@ -85,7 +85,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/elementary.png',
             link: 'https://github.com/abhn/Elementary',
-            title: 'Elementary',
+            title: '성균논어',
             demo: 'https://elementary-jekyll.github.io/',
             technologies: ['Jekyll', 'CSS3'],
             description: "Elementary is a zero Javascript and minimal CSS ultra lightweight Jekyll theme for those of you who love simplicity.",
@@ -94,65 +94,11 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/soot-spirits.png',
             link: 'https://github.com/abhn/Soot-Spirits',
-            title: 'Soot Spirits',
+            title: '프로그래밍기초와실습',
             demo: 'https://sootspirits.github.io',
             technologies: ['Jekyll', 'CSS3'],
             description: "A simple responsive two column Jekyll theme. Great for personal blog and basic portfolio website.",
             categories: ['webdev']
-        },
-        {
-            image: 'assets/images/python-chat.png',
-            link: 'https://www.nagekar.com/2014/12/lan-group-messenger-in-python.html',
-            title: 'Terminal Group Chat',
-            demo: false,
-            technologies: ['Python', 'Sockets'],
-            description: "Simple terminal group chat based on native sockets using Python.",
-            categories: ['native']
-        },
-        {
-            image: 'assets/images/old-lcd.jpg',
-            link: 'https://www.nagekar.com/2018/05/reusing-old-laptop-lcd-panel.html',
-            title: 'Reusing Old LCD Panel',
-            demo: false,
-            technologies: ['DIY'],
-            description: "Reusing a dead laptop's LCD panel as a secondary monitor.",
-            categories: ['diy']
-        },
-        {
-            image: 'assets/images/nextcloud-enc.png',
-            link: 'https://www.nagekar.com/2017/08/private-cloud-part-2.html',
-            title: 'Encrypted Self-Hosted Cloud',
-            demo: false,
-            technologies: ['NextCloud', 'GnuPG'],
-            description: "Self hosted encrypted cloud setup with Nextcloud and GnuPG.",
-            categories: ['diy', 'security']
-        },
-        {
-            image: 'assets/images/google-cloud-backup.png',
-            link: 'https://www.nagekar.com/2018/05/encrypted-backup-with-duplicity.html',
-            title: 'Encrypted Backups - Google Cloud',
-            demo: false,
-            technologies: ['NextCloud', 'Duplicity'],
-            description: "Create automated encrypted incremental backups of data. Sync everything securely to Google Cloud.",
-            categories: ['diy', 'security']
-        },
-        {
-            image: 'assets/images/pi-cloud.jpg',
-            link: 'https://www.nagekar.com/2016/01/how-to-private-local-cloud-using-raspberrypi.html',
-            title: 'Local Cloud - Raspberry Pi',
-            demo: false,
-            technologies: ['FTP', 'DIY'],
-            description: "Host a local cloud server with a Raspberry Pi and a spare hard disk. Access data instantaneously on any device on the network.",
-            categories: ['diy']
-        },
-        {
-            image: 'assets/images/koalamate.png',
-            link: 'https://github.com/abhn/koalamate',
-            title: 'Koalamate',
-            demo: false,
-            technologies: ['Electron', 'Javascript'],
-            description: "A cross-platform desktop application that serves as a Wolfram Alpha query place and notes taker.",
-            categories: ['native']
         },
     ]
 
