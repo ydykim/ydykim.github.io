@@ -51,7 +51,7 @@ let render_projects = (slug) => {
             link: 'https://www.skku.edu/skku/edu/bachelor/curriculum.do',
             title: 'General Logic',
             demo: false,
-            technologies: ['Python', '2 credit'],
+            technologies: ['한기호', '2 credit'],
             description: "Ever wondered how many times a URL has been shared on popular social networks?",
             categories: ['native']
         },
@@ -60,7 +60,7 @@ let render_projects = (slug) => {
             link: 'https://www.skku.edu/skku/edu/bachelor/curriculum.do',
             title: 'Critical Thinking',
             demo: false,
-            technologies: ['C++', '2 credit'],
+            technologies: ['홍지호', '2 credit'],
             description: "Native GUI wrapper for GNU coreutils tool 'dd'",
             categories: ['native']
         },
@@ -69,7 +69,7 @@ let render_projects = (slug) => {
             link: 'https://www.skku.edu/skku/edu/bachelor/curriculum.do',
             title: 'Linear Algebra',
             demo: false,
-            technologies: ['python', '3 credit'],
+            technologies: ['허석문', '3 credit'],
             description: "Web based status monitor/smart mirror, displays system stats, weather and more.",
             categories: ['webdev', 'diy']
         },
@@ -78,7 +78,7 @@ let render_projects = (slug) => {
             link: 'https://www.skku.edu/skku/edu/bachelor/curriculum.do',
             title: 'Fundamental of Data Analytics',
             demo: false,
-            technologies: ['python', '3 credit'],
+            technologies: ['김유성', '3 credit'],
             description: "Automate crawling of a website and find publicly open S3 buckets for takeover.",
             categories: ['native', 'security']
         },
@@ -87,7 +87,7 @@ let render_projects = (slug) => {
             link: 'https://www.skku.edu/skku/edu/bachelor/curriculum.do',
             title: 'The Analects of Confucius',
             demo: 'https://elementary-jekyll.github.io/',
-            technologies: ['Jekyll', '2 credit'],
+            technologies: ['윤민향', '2 credit'],
             description: "Elementary is a zero Javascript and minimal CSS ultra lightweight Jekyll theme for those of you who love simplicity.",
             categories: ['webdev']
         },
@@ -96,7 +96,7 @@ let render_projects = (slug) => {
             link: 'https://www.skku.edu/skku/edu/bachelor/curriculum.do',
             title: 'Basis and Practice in Programming',
             demo: 'https://sootspirits.github.io',
-            technologies: ['Jekyll', '3 credit'],
+            technologies: ['김유성', '3 credit'],
             description: "A simple responsive two column Jekyll theme. Great for personal blog and basic portfolio website.",
             categories: ['webdev']
         },
