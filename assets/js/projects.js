@@ -11,7 +11,7 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/mentors.jpg',
+            image: 'assets/images/ps.jpeg',
             link: 'https://cs.skku.edu/ko/college/intro/course',
             title: 'Problem Solving Techniques',
             demo: false,
@@ -20,7 +20,7 @@ let render_projects = (slug) => {
             categories: ['featured']
         },
         {
-            image: 'assets/images/mpw.jpg',
+            image: 'assets/images/system.jpg',
             link: 'https://cs.skku.edu/ko/college/intro/course',
             title: 'System Program',
             demo: false,
@@ -29,7 +29,7 @@ let render_projects = (slug) => {
             categories: ['featured']
         },
         {
-            image: 'assets/images/mobile-landscape.jpg',
+            image: 'assets/images/pl.jpg',
             link: 'https://cs.skku.edu/ko/college/intro/course',
             title: 'Programming Languages',
             demo: false,
@@ -38,7 +38,7 @@ let render_projects = (slug) => {
             categories: ['featured']
         },
         {
-            image: 'assets/images/collage.jpg',
+            image: 'assets/images/os.jpg',
             link: 'https://cs.skku.edu/ko/college/intro/course',
             title: 'Operating Systems',
             demo: false,
@@ -47,7 +47,7 @@ let render_projects = (slug) => {
             categories: ['featured']
         },
         {
-            image: 'assets/images/social-share-count.jpeg',
+            image: 'assets/images/Brown.png',
             link: 'https://www.skku.edu/skku/edu/bachelor/curriculum.do',
             title: 'General Logic',
             demo: false,
@@ -56,7 +56,7 @@ let render_projects = (slug) => {
             categories: ['native']
         },
         {
-            image: 'assets/images/data-destroyer.png',
+            image: 'assets/images/brown.jpg',
             link: 'https://www.skku.edu/skku/edu/bachelor/curriculum.do',
             title: 'Critical Thinking',
             demo: false,
@@ -65,7 +65,7 @@ let render_projects = (slug) => {
             categories: ['native']
         },
         {
-            image: 'assets/images/raspberry-pi-monitor.png',
+            image: 'assets/images/brown.jpg',
             link: 'https://www.skku.edu/skku/edu/bachelor/curriculum.do',
             title: 'Linear Algebra',
             demo: false,
@@ -74,7 +74,7 @@ let render_projects = (slug) => {
             categories: ['native']
         },
         {
-            image: 'assets/images/s3scan.png',
+            image: 'assets/images/Brown.png',
             link: 'https://www.skku.edu/skku/edu/bachelor/curriculum.do',
             title: 'Fundamental of Data Analytics',
             demo: false,
@@ -83,7 +83,7 @@ let render_projects = (slug) => {
             categories: ['native']
         },
         {
-            image: 'assets/images/elementary.png',
+            image: 'assets/images/Brown.png',
             link: 'https://www.skku.edu/skku/edu/bachelor/curriculum.do',
             title: 'The Analects of Confucius',
             demo: 'https://elementary-jekyll.github.io/',
@@ -92,7 +92,7 @@ let render_projects = (slug) => {
             categories: ['native']
         },
         {
-            image: 'assets/images/soot-spirits.png',
+            image: 'assets/images/brown.jpg',
             link: 'https://www.skku.edu/skku/edu/bachelor/curriculum.do',
             title: 'Basis and Practice in Programming',
             demo: 'https://sootspirits.github.io',
