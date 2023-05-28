@@ -12,8 +12,8 @@ let render_projects = (slug) => {
     let projects_obj = [
         {
             image: 'assets/images/mentors.jpg',
-            link: 'https://github.com/abhn/Mporter',
-            title: '컴퓨터네트웍개론',
+            link: 'https://cs.skku.edu/ko/college/intro/course',
+            title: '문제해결',
             demo: 'https://mporter.co',
             technologies: ['Flask', 'Celery', 'Python'],
             description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
@@ -21,7 +21,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/mobile-landscape.jpg',
-            link: 'https://github.com/abhn/Wall-E',
+            link: 'https://cs.skku.edu/ko/college/intro/course',
             title: '프로그래밍언어',
             demo: 'http://wall-e-jekyll.github.io/',
             technologies: ['Semantic UI', 'Jekyll'],
@@ -30,7 +30,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/collage.jpg',
-            link: 'https://github.com/abhn/Marvel',
+            link: 'https://cs.skku.edu/ko/college/intro/course',
             title: '운영체제',
             demo: false,
             technologies: ['Android', 'OpenCV'],
@@ -39,7 +39,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/mpw.jpg',
-            link: 'https://github.com/abhn/mpw',
+            link: 'https://cs.skku.edu/ko/college/intro/course',
             title: '시스템프로그램',
             demo: 'https://www.nagekar.com/mpw',
             technologies: ['Semantic UI', 'CSS3'],
@@ -48,7 +48,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/social-share-count.jpeg',
-            link: 'https://github.com/abhn/Social-Share-Counts',
+            link: 'https://www.skku.edu/skku/edu/bachelor/curriculum.do',
             title: '일반논리학',
             demo: false,
             technologies: ['Python'],
@@ -57,7 +57,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/data-destroyer.png',
-            link: 'https://github.com/abhn/data-destroyer-gui',
+            link: 'https://www.skku.edu/skku/edu/bachelor/curriculum.do',
             title: '비판적사고',
             demo: false,
             technologies: ['C++', 'Qt'],
@@ -66,7 +66,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/raspberry-pi-monitor.png',
-            link: 'https://github.com/abhn/RPi-Status-Monitor',
+            link: 'https://www.skku.edu/skku/edu/bachelor/curriculum.do',
             title: '선형대수학',
             demo: false,
             technologies: ['python', 'flask'],
@@ -75,7 +75,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/s3scan.png',
-            link: 'https://github.com/abhn/S3Scan',
+            link: 'https://www.skku.edu/skku/edu/bachelor/curriculum.do',
             title: '데이터분석기초',
             demo: false,
             technologies: ['python'],
@@ -84,7 +84,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/elementary.png',
-            link: 'https://github.com/abhn/Elementary',
+            link: 'https://www.skku.edu/skku/edu/bachelor/curriculum.do',
             title: '성균논어',
             demo: 'https://elementary-jekyll.github.io/',
             technologies: ['Jekyll', 'CSS3'],
@@ -93,7 +93,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/soot-spirits.png',
-            link: 'https://github.com/abhn/Soot-Spirits',
+            link: 'https://www.skku.edu/skku/edu/bachelor/curriculum.do',
             title: '프로그래밍기초와실습',
             demo: 'https://sootspirits.github.io',
             technologies: ['Jekyll', 'CSS3'],
