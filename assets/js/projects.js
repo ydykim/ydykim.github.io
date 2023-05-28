@@ -17,25 +17,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['조재민', '3 credit'],
             description: "Through programming, fundamental theories for problem-solving in various domains are learned and implemented as the foundation courses for computer engineering major.",
-            categories: ['featured', 'webdev']
-        },
-        {
-            image: 'assets/images/mobile-landscape.jpg',
-            link: 'https://cs.skku.edu/ko/college/intro/course',
-            title: 'Programming Languages',
-            demo: false,
-            technologies: ['황성재', '3 credit'],
-            description: "This course covers fundamental concepts of computer programming and introduces different language paradigms. Topics include data types, control flow, object-oriented concepts, and efficient data management.",
-            categories: ['featured', 'webdev']
-        },
-        {
-            image: 'assets/images/collage.jpg',
-            link: 'https://cs.skku.edu/ko/college/intro/course',
-            title: 'Operating Systems',
-            demo: false,
-            technologies: ['신동군', '3 credit'],
-            description: "The course covers fundamental concepts of operating systems, including process management, memory management, file and I/O management, and security. It also explores design considerations for distributed systems and parallel processing operating systems.",
-            categories: ['featured', 'native']
+            categories: ['featured']
         },
         {
             image: 'assets/images/mpw.jpg',
@@ -44,7 +26,25 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['이호준', '3 credit'],
             description: "This course focuses on the theory, design, and implementation methodologies of system software. It covers topics such as assemblers, preprocessors (microprocessors), linkers/loaders, and document editors.",
-            categories: ['featured', 'security']
+            categories: ['featured']
+        },
+        {
+            image: 'assets/images/mobile-landscape.jpg',
+            link: 'https://cs.skku.edu/ko/college/intro/course',
+            title: 'Programming Languages',
+            demo: false,
+            technologies: ['황성재', '3 credit'],
+            description: "This course covers fundamental concepts of computer programming and introduces different language paradigms. Topics include data types, control flow, object-oriented concepts, and efficient data management.",
+            categories: ['featured']
+        },
+        {
+            image: 'assets/images/collage.jpg',
+            link: 'https://cs.skku.edu/ko/college/intro/course',
+            title: 'Operating Systems',
+            demo: false,
+            technologies: ['신동군', '3 credit'],
+            description: "The course covers fundamental concepts of operating systems, including process management, memory management, file and I/O management, and security. It also explores design considerations for distributed systems and parallel processing operating systems.",
+            categories: ['featured']
         },
         {
             image: 'assets/images/social-share-count.jpeg',
@@ -71,7 +71,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['허석문', '3 credit'],
             description: "Web based status monitor/smart mirror, displays system stats, weather and more.",
-            categories: ['webdev', 'diy']
+            categories: ['native']
         },
         {
             image: 'assets/images/s3scan.png',
@@ -80,7 +80,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['김유성', '3 credit'],
             description: "Automate crawling of a website and find publicly open S3 buckets for takeover.",
-            categories: ['native', 'security']
+            categories: ['native']
         },
         {
             image: 'assets/images/elementary.png',
@@ -89,7 +89,7 @@ let render_projects = (slug) => {
             demo: 'https://elementary-jekyll.github.io/',
             technologies: ['윤민향', '2 credit'],
             description: "Elementary is a zero Javascript and minimal CSS ultra lightweight Jekyll theme for those of you who love simplicity.",
-            categories: ['webdev']
+            categories: ['native']
         },
         {
             image: 'assets/images/soot-spirits.png',
@@ -98,7 +98,7 @@ let render_projects = (slug) => {
             demo: 'https://sootspirits.github.io',
             technologies: ['김유성', '3 credit'],
             description: "A simple responsive two column Jekyll theme. Great for personal blog and basic portfolio website.",
-            categories: ['webdev']
+            categories: ['native']
         },
     ]
 
