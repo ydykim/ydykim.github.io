@@ -8,11 +8,7 @@ exclude: [vendor/ruby]
 
 # Personalization
 github_username: ydykim
-blog_url: https://www.nagekar.com
-email: ydykim@naver.com
-keybase_username: abhn
-twitter_username: abhn_
-reddit_username: abhn
+email: sys631847@gmail.com
 
 # absolute or relative
 profile_picture: assets/images/pp.jpg
