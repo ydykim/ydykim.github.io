@@ -1,15 +1,15 @@
-title: Abhishek Nagekar
+title: Yongsang Shin
 description: Web & Security Engineer
-site_title: '@abhn - Abhishek Nagekar'
+site_title: 'Yongsang Shin'
 
 # Build settings
 markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: abhn
+github_username: ydykim
 blog_url: https://www.nagekar.com
-email: abhishek@nagekar.com
+email: ydykim@naver.com
 keybase_username: abhn
 twitter_username: abhn_
 reddit_username: abhn
